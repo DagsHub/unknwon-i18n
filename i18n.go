@@ -161,7 +161,7 @@ func SetMessageWithDesc(lang, langDesc string, localeFile interface{}, otherLoca
 		UnescapeValueCommentSymbols: true,
 	}, localeFile, otherLocaleFiles...)
 	if err == nil {
-		message.BlockMode = false
+		println("loaded local SetMessageWithDesc")
 		lc := new(locale)
 		lc.lang = lang
 		lc.langDesc = langDesc
