@@ -1,4 +1,4 @@
-module github.com/unknwon/i18n
+module github.com/DagsHub/unknwon-i18n
 
 go 1.12
 
